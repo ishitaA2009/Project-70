@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
   },
   inputView: {
@@ -80,5 +79,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
     padding: 10,
     margin: 10,
+    width: 80,
+    marginLeft: 650,
+    borderWidth: 2,
+    borderColor: 'blue',
   },
 });
